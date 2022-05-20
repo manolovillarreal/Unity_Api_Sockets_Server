@@ -54,6 +54,7 @@ class Sockets {
         socket.on("findMatch",()=>{
             console.log(user.username+" esta buscando partida");
             // Realizar matchmaking... estan solos
+            //Incluye cancelar busqueda
         })
       
         socket.on("friendRequest",({username})=>{
